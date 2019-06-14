@@ -1,0 +1,1 @@
+pyinstaller rdf_tool_v2.py
