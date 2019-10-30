@@ -8,21 +8,6 @@ import pandas as pd
 
 home_path = os.environ['HomePath']
 
-class Test():
-
-    name = StringVar
-    gender = StringVar
-
-    def __init__(self, name, gender) -> None:
-        super().__init__()
-        self.name = name
-        self.gender = gender
-
-    def check_name(self):
-        return self.name
-
-
-
 
 def query_rdf(conn):
     print('Querying...(remote server might take a while)')
